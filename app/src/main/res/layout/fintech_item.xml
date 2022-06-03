@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    app:cardCornerRadius="10dp"
+    android:layout_margin = "8dp"
+    android:layout_marginBottom="20dp"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="8dp"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:padding="4dp"
+
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewLabelComment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Название: "
+            style="@style/TextLabelMargin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCategory" />
+
+        <TextView
+            android:id="@+id/textViewComment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            style="@style/TextMargin"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewLabelComment"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textViewLabelComment"
+            app:layout_constraintTop_toBottomOf="@id/textViewCategory"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewLabelCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сумма: "
+            style="@style/TextLabelMargin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLabelComment" />
+
+        <TextView
+            android:id="@+id/textViewCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextMargin"
+            app:layout_constraintBottom_toBottomOf="@+id/textViewLabelCash"
+            app:layout_constraintStart_toEndOf="@+id/textViewLabelCash"
+            app:layout_constraintTop_toBottomOf="@+id/textViewComment"
+            tools:text="TextView" />
+
+        <TextView
+            android:id="@+id/textViewLabelDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дата: "
+            style="@style/TextLabelMargin"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLabelCash" />
+
+        <TextView
+            android:id="@+id/textViewDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextMargin"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textViewLabelDate"
+            app:layout_constraintTop_toBottomOf="@+id/textViewCash"
+            tools:text="TextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

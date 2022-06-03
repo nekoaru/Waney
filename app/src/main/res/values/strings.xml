@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Fintech</string>
+    <string name="textView_title">Заметки валют</string>
+    <string name="textView_buttonAddFintech">Добавить покупку</string>
+    <string name="textView_add">Добавить покупку</string>
+    <string-array name="spinnerDate">
+        <item> 1 число</item>
+        <item> 2 число</item>
+        <item> 3 число</item>
+        <item> 4 число</item>
+        <item> 5 число</item>
+    </string-array>
+
+    <string-array name="spinnerCategory">
+        <item>Развлечения</item>
+        <item>Спорт</item>
+        <item>Одежда</item>
+        <item>Техника</item>
+        <item>Коммунальные услуги</item>
+    </string-array>
+</resources>
