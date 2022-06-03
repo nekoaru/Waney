@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fintech</string>
+    <string name="textView_title">Заметки о расходах</string>
+    <string name="textView_buttonAddFintech">Добавить покупку</string>
+    <string name="textView_add">Добавить покупку</string>
+
+    <string-array name="spinnerCategory">
+        <item>Дом</item>
+        <item>Здоровье</item>
+        <item>Личные расходы</item>
+        <item>Одежда</item>
+        <item>Питание</item>
+        <item>Подарки и сувениры</item>
+        <item>Техника</item>
+        <item>Услуги</item>
+    </string-array>
+</resources>

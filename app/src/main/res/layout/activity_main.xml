@@ -10,12 +10,13 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
         android:text="@string/textView_title"
         android:textColor="@color/black"
         android:textSize="24sp"
-        android:layout_marginStart="10dp"
         android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/guidelineEnd"
         app:layout_constraintStart_toStartOf="@id/guidelineStart"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -45,10 +46,12 @@
 
     <Button
         android:id="@+id/buttonAddFintech"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="268dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
         android:backgroundTint="@android:color/holo_red_light"
         android:text="@string/textView_buttonAddFintech"
+        android:textColor="#212121"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="@+id/recyclerView"
         app:layout_constraintEnd_toEndOf="@id/guidelineEnd"

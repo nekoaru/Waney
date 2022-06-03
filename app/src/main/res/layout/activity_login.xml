@@ -35,11 +35,12 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:hint="Введите пароль"
         android:inputType="textPassword"
-        android:layout_marginTop="10dp"
-        android:layout_margin="10dp"
 
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextEmailAddress" />
@@ -48,11 +49,12 @@
         android:id="@+id/editTextEmailAddress"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Введите логин"
         android:layout_margin="10dp"
-
         android:layout_marginTop="20dp"
+
+        android:hint="Введите логин"
         android:inputType="textEmailAddress"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewLoginTitle" />

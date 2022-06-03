@@ -31,8 +31,6 @@ public class AddFintech extends AppCompatActivity {
         editTextComment = findViewById(R.id.editTextComment);
         buttonAdd = findViewById(R.id.buttonAdd);
 
-
-
         buttonAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

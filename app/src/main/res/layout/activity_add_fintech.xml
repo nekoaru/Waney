@@ -11,19 +11,21 @@
         android:id="@+id/spinnerCategory"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:entries="@array/spinnerCategory"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:entries="@array/spinnerCategory"
-        android:layout_marginTop="15dp"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editTextCash"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="Введите сумму"
         android:layout_marginTop="15dp"
+        android:hint="Введите сумму"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerCategory" />
@@ -32,10 +34,11 @@
         android:id="@+id/editTextComment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="Введите название"
         android:layout_marginTop="15dp"
+        android:hint="Введите название"
+        android:inputType="textPersonName"
 
+        android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextCash" />
@@ -44,10 +47,11 @@
         android:id="@+id/spinnerData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:entries="@array/spinnerDate"
         android:layout_marginTop="15dp"
+        android:entries="@array/spinnerDate"
+        android:minHeight="48dp"
 
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextComment" />
 
