@@ -4,6 +4,21 @@
     <string name="textView_buttonAddFintech">Добавить покупку</string>
     <string name="textView_add">Добавить покупку</string>
 
+
+    <string name="title_sign_in">Войти</string>
+    <string name="hint_login">Введите логин</string>
+    <string name="hint_pass">Введите пароль</string>
+    <string name="button_authentification">Аутентификация</string>
+    <string name="button_register">Зарегистрировать аккаунт</string>
+    <string name="hint_sum">Введите сумму</string>
+    <string name="hint_comment">Оставьте примечание</string>
+    <string name="button_sign_in_with_account">Войти уже с существующего аккаунта</string>
+    <string name="text_register">Регистрация</string>
+    <string name="text_name">Название:</string>
+    <string name="text_date">Дата:</string>
+    <string name="text_sum">Сумма:</string>
+
+
     <string-array name="spinnerCategory">
         <item>Дом</item>
         <item>Здоровье</item>

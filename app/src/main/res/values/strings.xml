@@ -3,6 +3,22 @@
     <string name="textView_title">Notes on expenses</string>
     <string name="textView_buttonAddFintech">Add a purchase</string>
     <string name="textView_add">Add</string>
+
+    <string name="hint_login">Enter a login</string>
+    <string name="hint_pass">Enter a password</string>
+    <string name="title_sign_in">Sign in</string>
+
+    <string name="button_authentification">Authentification</string>
+    <string name="button_register">Register an account</string>
+    <string name="hint_sum">Enter the amount</string>
+    <string name="hint_comment">Enter a comment</string>
+    <string name="button_sign_in_with_account">Log in from an existing account</string>
+    <string name="text_register">Register</string>
+    <string name="textview" translatable="false">TextView</string>
+    <string name="text_name">Name:</string>
+    <string name="text_date">Date:</string>
+    <string name="text_sum">Amount:</string>
+
     <string-array name="spinnerDate">
         <item> 1 </item>
         <item> 2 </item>

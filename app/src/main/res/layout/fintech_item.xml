@@ -22,41 +22,42 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:padding="4dp"
-            android:text="TextView"
+            android:text="@string/textview"
 
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textViewLabelComment"
+            style="@style/TextLabelMargin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Название: "
-            style="@style/TextLabelMargin"
+            android:text="@string/text_name"
+            android:textColor="@color/purple_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewCategory" />
 
         <TextView
             android:id="@+id/textViewComment"
+            style="@style/TextMargin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            style="@style/TextMargin"
             app:layout_constraintBottom_toBottomOf="@+id/textViewLabelComment"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/textViewLabelComment"
             app:layout_constraintTop_toBottomOf="@id/textViewCategory"
-            tools:text="TextView" />
+            tools:text="@string/textview" />
 
         <TextView
             android:id="@+id/textViewLabelCash"
+            style="@style/TextLabelMargin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Сумма: "
-            style="@style/TextLabelMargin"
+            android:text="@string/text_sum"
+            android:textColor="@color/purple_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewLabelComment" />
 
@@ -68,27 +69,28 @@
             app:layout_constraintBottom_toBottomOf="@+id/textViewLabelCash"
             app:layout_constraintStart_toEndOf="@+id/textViewLabelCash"
             app:layout_constraintTop_toBottomOf="@+id/textViewComment"
-            tools:text="TextView" />
+            tools:text="@string/textview" />
 
         <TextView
             android:id="@+id/textViewLabelDate"
+            style="@style/TextLabelMargin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Дата: "
-            style="@style/TextLabelMargin"
+            android:text="@string/text_date"
+            android:textColor="@color/purple_700"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textViewLabelCash" />
 
         <TextView
             android:id="@+id/textViewDate"
+            style="@style/TextMargin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TextMargin"
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/textViewLabelDate"
             app:layout_constraintTop_toBottomOf="@+id/textViewCash"
-            tools:text="TextView" />
+            tools:text="@string/textview" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.cardview.widget.CardView>
